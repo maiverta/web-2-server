@@ -11,24 +11,12 @@ mongoose.connect('mongodb://localhost:27017/products', { useNewUrlParser: true }
         console.log("no connection start");
     })
 
-// const p = new Product({
-//     name: ' Ruby',
-//     price: 1.99,
-//     category: 'fruit'
-// })
-// p.save().then(p => {
-//     console.log(p)
-// })
-//     .catch(e => {
-//         console.log(e)
-
-//     })
 const seedProducts = [
     {
         name: 'תיק שחור',
         price: 1.00,
         description: 'beautiful bag',
-        image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.riverisland.com%2Fc%2Fwomen%2Fbags-and-purses&psig=AOvVaw02EcMBqoaL5bRNWsk8kKnW&ust=1670751617770000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCPjowfbg7vsCFQAAAAAdAAAAABAE"
+        image: "https://litb-cgis.rightinthebox.com/images/640x640/201903/nrssmx1554045289387.jpg?fmt=webp&v=1"
 
     },
     {
@@ -39,16 +27,45 @@ const seedProducts = [
 
     },
     {
+        name: 'תיק גוצי',
+        price: 2.00,
+        description: 'beautiful bag',
+        image: "https://www.ronarifashion.com/wp-content/uploads/2021/04/CB72D8F8-8145-4FC5-B53A-F0F82951B16F.jpeg"
+
+    },
+    {
+        name: 'תיק כתום',
+        price: 2.00,
+        description: 'beautiful bag',
+        image: "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/dc30e3c87a2f32a48fb3f57536a620f7.webp"
+
+    },
+    
+    {
+        name: 'תיק אפור',
+        price: 2.00,
+        description: 'beautiful bag',
+        image: "https://www.platinexpress.co.il/media/catalog/product/cache/e08ff2bd7abaae445c898acf01207d72/b/c/bc787922dvl_1_1.jpg"
+
+    },
+    {
+        name: 'תיק בורדו',
+        price: 2.00,
+        description: 'beautiful bag',
+        image: "https://cdn-images.farfetch-contents.com/18/93/40/16/18934016_41203203_1000.jpg"
+
+    },
+    {
         name: 'תיק בז',
         price: 34334.00,
         description: 'beige bag',
-        image: "https://twicpics.celine.com/product-prd/images/large/10E382CBX.01TA_1_LIB_613851_V2.jpg?twic=v1/cover=1:1/resize-max=720"
+        image: "https://bshare-group.co.il/images/detailed/52/1669239189.webp"
     },
     {
         name: 'תיק אדום',
         price: 43534.00,
         description: 'beautiful bag',
-        image: "https://www.arielhayom.com/wp-content/uploads/2017/12/product-bag3.jpg"
+        image: "https://litb-cgis.rightinthebox.com/images/640x640/201903/mzzrjn1554045288285.jpg?fmt=webp&v=1"
 
     },
     {
